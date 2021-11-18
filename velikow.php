@@ -1,9 +1,9 @@
 <?php
-function me() {
-echo "My name is Simeon";
+<?php
+$a = 5;
+$b = 6;
 
-echo "I am 16 years old";
-}
-me();
+echo $a * $b;
+?>
 
 ?>
