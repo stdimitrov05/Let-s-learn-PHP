@@ -5,6 +5,12 @@ function hi(){
 
     echo "Az se kazvam" ,$text, "i sum na" ,$age;
 }
+function hello(){
+    $a = 5;
+    $b = 4;
 
-hi()
+    echo $a * $b;
+}
+hi();
+hello();
 ?>
