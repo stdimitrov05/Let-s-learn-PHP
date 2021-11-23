@@ -1,8 +1,13 @@
 <?php
-$age = 17;
-if($age<"18"){
-    echo 'Qj hui';
-}else{
-    echo'Ne qj hui';
-}
+$car = "370z";
+switch ($car) {
+    case 1:
+        echo '350z';
+        break;
+    case 3:
+        echo 'Acura Nsx';
+        break;
+    default:
+        echo 'error';
+    }
 ?>
